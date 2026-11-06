@@ -1,0 +1,18 @@
+﻿Hiperparametre,Değer
+Model tipi,Çok katmanlı algılayıcı (MLP)
+Girdi boyutu,9 öznitelik (A1–A9)
+Gizli katmanlar,2 katman: 64 ve 32 nöron
+Çıktı boyutu,7 sınıf
+Aktivasyon fonksiyonu,ReLU
+Dropout oranı,"0,2 (her gizli katmandan sonra)"
+Toplam parametre sayısı,2.951
+Kayıp fonksiyonu,Çapraz entropi (cross-entropy)
+Optimizasyon algoritması,Adam
+Öğrenme oranı,"0,001 (sabit)"
+Epoch sayısı,50
+Batch büyüklükleri (deney değişkeni),"16, 32, 64, 128, 256, 512, 1024"
+Veri karıştırma,Her epoch'ta (shuffle=True)
+Ön işleme,Z-skor standartlaştırma (yalnızca eğitim setiyle)
+Eğitim / doğrulama / test,34.800 / 8.700 / 14.500 örnek
+Değerlendirme metrikleri,"Doğruluk, macro F1, macro duyarlılık, epoch süresi"
+Rastgelelik tohumu (seed),42

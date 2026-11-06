@@ -1,0 +1,6 @@
+﻿Adım,İşlem,Açıklama
+1,Eksik değer kontrolü,"Eksik değer bulunmadı, işlem gerekmedi"
+2,Etiket dönüşümü,Sınıflar 1-7 → 0-6
+3,Eğitim/doğrulama bölmesi,"%80 eğitim (34800), %20 doğrulama (8700), tabakalı, seed=42"
+4,Standartlaştırma (z-skor),Ortalama ve std yalnızca eğitim setinden hesaplandı (veri sızıntısı önlendi)
+5,Test seti,"Orijinal UCI test dosyası (14500 örnek), yalnızca son değerlendirmede kullanıldı"

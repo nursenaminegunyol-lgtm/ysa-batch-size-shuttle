@@ -1,0 +1,7 @@
+﻿Kod,Konfigürasyon,Test doğruluğu,Test macro F1,Macro duyarlılık,Hatalı tahmin,Parametre sayısı,Eğitim süresi (sn),ΔF1 (A0'a göre)
+A0,"Temel model (64-32, dropout 0,2)",0.9991,0.8427,0.7809,13,2951,65.1697,0.0
+A1,+ Sınıf ağırlıklandırma,0.9981,0.8543,0.9991,28,2951,65.1387,0.0117
+A2,Dropout yok,0.9992,0.8867,0.824,11,2951,58.1474,0.0441
+A3,Tek gizli katman (64),0.9986,0.8501,0.8258,20,1095,52.341,0.0074
+A4,Daha geniş ağ (128-64),0.999,0.6925,0.6811,15,9991,71.5048,-0.1502
+A5,Ölçekleme yok (ham veri),0.9981,0.6863,0.6802,28,2951,65.9271,-0.1564

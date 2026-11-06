@@ -1,0 +1,11 @@
+﻿Öznitelik,Veri tipi,Açıklama,Min,Maks
+A1,int64,Zaman,27,126
+A2,int64,Sensör ölçümü (adlandırılmamış),-4821,5075
+A3,int64,Sensör ölçümü (adlandırılmamış),21,149
+A4,int64,Sensör ölçümü (adlandırılmamış),-3939,3830
+A5,int64,Sensör ölçümü (adlandırılmamış),-188,436
+A6,int64,Sensör ölçümü (adlandırılmamış),-13839,13148
+A7,int64,Sensör ölçümü (adlandırılmamış),-48,105
+A8,int64,Sensör ölçümü (adlandırılmamış),-353,270
+A9,int64,Sensör ölçümü (adlandırılmamış),-356,266
+sinif,int64,"Radyatör durumu (hedef, 7 sınıf)",1,7
